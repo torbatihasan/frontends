@@ -1,0 +1,22 @@
+@media screen and (max-width:1400px) {
+    .container{
+        width: 90%;
+    }
+    header nav ul li{
+        margin-left: 5px;
+    }
+}
+@media  screen and (max-width:992px) {
+    header nav ul{
+        display: none;
+    }
+    .hamburger-icon{
+        display: block;
+    }
+    header .logo{
+        float: left;
+    }
+    #responsive-nav ul{
+        display: block;
+    }
+}
